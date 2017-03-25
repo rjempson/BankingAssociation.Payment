@@ -20,7 +20,7 @@
                                     AzureActiveDirectory="true"
                                     ServerCertThumbprint="0123456789012345678901234567890123456789" />
   -->
-  <ClusterConnectionParameters ConnectionEndpoint="52.187.120.195:19000" />
+  <ClusterConnectionParameters ConnectionEndpoint="gib12345.australiaeast.cloudapp.azure.com:19000" />
   <ApplicationParameterFile Path="..\ApplicationParameters\Cloud.xml" />
   <UpgradeDeployment Mode="Monitored" Enabled="false">
     <Parameters FailureAction="Rollback" Force="True" />
